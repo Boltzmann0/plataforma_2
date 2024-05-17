@@ -16,9 +16,7 @@ import { NavComponent } from './nav/nav.component';
     AppRoutingModule,
     UserModule
   ],
-  providers: [
-    provideClientHydration()
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
